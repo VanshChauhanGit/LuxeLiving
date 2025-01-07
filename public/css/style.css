@@ -1,0 +1,181 @@
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+
+body h2 {
+  margin: 1rem 0;
+}
+
+/* Navbar */
+
+.navbar {
+  height: 4rem;
+}
+
+.navbar-brand {
+  color: #fe424d;
+}
+
+.navbar-brand:hover {
+  color: #fe424d;
+  opacity: 0.85;
+}
+
+.fa-location-arrow {
+  padding-right: 0.4rem;
+  font-size: 1.75rem;
+}
+
+.navbar-brand-text {
+  font-size: 1.75rem;
+}
+
+.nav-link {
+  color: #111111;
+  font-size: 1.2rem;
+  margin-right: 0.35rem;
+}
+
+.nav-link:hover {
+  /* transition: all 0.5s; */
+  transform: scale(1.05);
+}
+
+.navber .container-fluid {
+  background-color: #fe424d;
+}
+
+/* Footer */
+
+.f-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 10px;
+  margin-top: 1rem;
+}
+
+.f-info-links {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+  color: #111111;
+}
+
+.f-info-links a {
+  color: #111111d2;
+  text-decoration: none;
+  margin: 0 7px;
+}
+
+.f-info-copyright {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px 10px;
+}
+
+.f-info-copy-text {
+  font-size: 1.25rem;
+}
+
+.f-info-socials a {
+  font-size: 1.5rem;
+  color: #111111d8;
+  margin: 0 5px;
+}
+
+.f-info-socials a:hover {
+  color: #111111;
+}
+
+/* INDEX - Listing Card */
+
+.card {
+  border: none;
+  margin-bottom: 1.75rem;
+}
+
+.card .card-img-top {
+  border-radius: 1rem;
+  width: 100%;
+  height: 17rem;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effect */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  background-color: white;
+  opacity: 0.2;
+}
+
+.listing-card:hover {
+  transition: all 0.2s;
+  transform: scale(1.02);
+}
+
+/* New Page */
+
+.add-btn {
+  background-color: #fe424f9f;
+  border: none;
+  padding: 8px 20px;
+  margin-bottom: 1.2rem;
+}
+
+.add-btn:hover {
+  background-color: #fe424d;
+  transform: scale(1.05);
+}
+
+.new-form label {
+  font-weight: 600;
+}
+
+/* Edit page */
+
+.edit-btn {
+  background-color: #fe424f9f;
+  border: none;
+  padding: 8px 20px;
+  margin-bottom: 1.2rem;
+}
+
+.edit-btn:hover {
+  background-color: #fe424d;
+  transform: scale(1.05);
+}
+
+.edit-form label {
+  font-weight: 600;
+}
+
+/* Show Page */
+
+.show-btns {
+  display: flex;
+  justify-content: space-around;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
