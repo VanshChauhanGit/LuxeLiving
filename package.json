@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:css": "postcss public/css/style.css -o public/css/tailwind.css",
-    "dev": "nodemon app.js"
+    "dev": "node app.js"
   },
   "keywords": [],
   "author": "Vansh Chauhan",
